@@ -1,0 +1,55 @@
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+.env/
+
+# --- Python bytecode and caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# --- Build / distribution ---
+build/
+dist/
+*.egg-info/
+*.egg
+
+# --- Test and coverage artifacts ---
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# --- OS noise ---
+Thumbs.db
+.DS_Store
+
+# --- Uploaded files and temporary working data ---
+uploads/
+tmp/
+*.log
+*.tmp
+
+# --- Secrets ---
+.env
+*.secret
+*.pem
+*.key
+
+# --- Demo captures are generated, not hand-edited. ---
+# They are small enough to be optional; regenerate with
+# `python -m scripts.generate_demo_pcaps`.
+backend/data/*.pcap
